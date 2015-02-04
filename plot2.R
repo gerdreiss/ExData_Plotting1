@@ -10,6 +10,10 @@ if (("data.table" %in% (installed.packages())) == F) {
   install.packages("data.table")
 }
 library(data.table)
+if (("plyr" %in% (installed.packages())) == F) {
+        install.packages("plyr")
+}
+library(plyr)
 
 
 ## the name of the dataset file
